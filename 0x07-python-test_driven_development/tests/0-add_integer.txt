@@ -1,0 +1,49 @@
+# 0-add_integer.txt
+
+======================
+using 0-add_integer.py
+======================
+
+import module:
+
+   >>> add_integer = __import__('0-add_integer').add_integer
+
+test one:
+
+   >>> add_integer(2)
+   100
+
+test two:
+
+   >>> add_integer(-5)
+   93
+
+test three:
+
+   >>> add_integer(105, 5)
+   110
+
+test with float:
+ 
+   >>> add_integer(11.6)
+   109
+
+test two floats:
+
+   >>> add_integer(15.5, 50.9)
+   65
+
+test integer and float:
+
+   >>> add_integer(25.4, 5)
+   30
+
+test high integers:
+
+   >>> add_integer(68439, 87456)
+   155895
+
+test high negative integers:
+
+   >>> add_integer(-98235, -67198)
+   -165433
