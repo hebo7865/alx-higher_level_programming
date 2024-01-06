@@ -4,6 +4,6 @@ Define square empty class
 """
 
 
-class square:
+class Square:
     """Square empty class"""
     pass
