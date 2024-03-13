@@ -18,4 +18,3 @@ const Rectangle = class {
   }
 };
 module.exports = Rectangle;
-  
