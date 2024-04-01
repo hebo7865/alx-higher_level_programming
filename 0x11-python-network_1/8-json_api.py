@@ -5,7 +5,6 @@ with the letter as a parameter
 """
 
 
-
 if __name__ == "__main__":
     import sys
     import requests
