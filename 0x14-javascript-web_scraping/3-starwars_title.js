@@ -7,6 +7,6 @@ request(url, function (error, response, body) {
   } else if (response.statusCode === 200) {
     console.log(JSON.parse(body).title);
   } else {
-    console.log('Error code: ' + response.statusCode)
+    console.log('Error code: ' + response.statusCode);
   }
 });
